@@ -1,0 +1,66 @@
+{
+    "method": "QBOP-1",
+    "version": "1.0.0",
+    "HF output file": "/ihome/jkeith/blz11/Miscellaneous/ZPVE-BOP_Project/thermo_1/codes/qbop_official_codes/H",
+    "date": "03-February-2025",
+    "time": "15:59:49",
+    "atoms": [
+        "H"
+    ],
+    "physical_properties": {
+        "point_group": "C*V",
+        "symmetry_number": "None",
+        "masses": [
+            1.00783
+        ],
+        "total_mass": 1.00783,
+        "rotational_constants": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "thermochemistry": {
+        "T": 298.15,
+        "P": 2.0,
+        "zpe": 0,
+        "q": {
+            "q_elec": 2.0,
+            "q_trans": 19884.073537908087,
+            "q_rot": 1.0,
+            "q_vib": 1.0,
+            "q_tot": 39768.147075816174
+        },
+        "lnq": {
+            "lnq_elec": 0.6931471805599453,
+            "lnq_trans": 9.897674365553534,
+            "lnq_rot": 0.0,
+            "lnq_vib": 0.0,
+            "lnq_tot": 10.59082154611348
+        },
+        "U": {
+            "U_elec": 0.0,
+            "U_trans": 0.8887286992722201,
+            "U_rot": 0.0,
+            "U_vib": 0.0,
+            "U_tot": 0.8887286992722201
+        },
+        "CV": {
+            "CV_elec": 0.0,
+            "CV_trans": 2.9808106633312765,
+            "CV_rot": 0.0,
+            "CV_vib": 0.0,
+            "CV_tot": 2.9808106633312765
+        },
+        "S": {
+            "S_elec": 1.377427004714063,
+            "S_trans": 24.636746632900532,
+            "S_rot": 0.0,
+            "S_vib": 0.0,
+            "S_tot": 26.014173637614594
+        },
+        "H": 1.48121364909307,
+        "G": -6.2749122209617205,
+        "H_T - zpe": 1.48121364909307
+    }
+}
