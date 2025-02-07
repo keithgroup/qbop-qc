@@ -34,7 +34,7 @@ To execute `qbop1`,  run this in the command line:
 qbop1 -f {name_file} -mult {multiplicity} -T {temperature} -P {pressure} -param_folder {param_folder} --json > {name_file}.bop
 ```
 
-where `{name_file}` is the Hartree-Fock MinPop output file, `{multiplicity}` is the multiplicity, `{temperature}` is the temperature in K, `{pressure}` is the pressure in atm, and `{param_folder}` is the name of the folder containing the QBOP-1 and ZPEBOP-2 parameter folders. Note that both models' parameters are stored in json files under the `opt_parameters` folders.
+where `{name_file}` is the Hartree-Fock MinPop output (or the atomic symbol of an atom) file, `{multiplicity}` is the multiplicity, `{temperature}` is the temperature in K, `{pressure}` is the pressure in atm, and `{param_folder}` is the name of the folder containing the QBOP-1 and ZPEBOP-2 parameter folders. Note that both models' parameters are stored in json files under the `opt_parameters` folders.
 
 Some examples of QBOP-1 output files are found in the `examples` directory.
 
@@ -59,6 +59,7 @@ optional arguments:
                         name of ZPEBOP-2 and QBOP-1's parameter folder (default: opt_parameters/)
   --json                save the job output into JSON
 ```
+Note the user can calculate the thermal effects from the first row atoms. Instead of following steps 1-2 chronologically, the user can insert the atom symbol under  `{name_file}` and change `{type}` from `molecule` to `atom`. 
 
 ## Citations
 
