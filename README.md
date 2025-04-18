@@ -65,7 +65,7 @@ Note the user can calculate the thermal effects from the first row atoms. Instea
 
 Please cite:
 
-**QBOP-1**:  Barbaro Zulueta and John A. Keith. Vibrational Partition Functions from Bond Orders and Populations. (under preparation), 2025.
+**QBOP-1**:  Barbaro Zulueta and John A. Keith. Vibrational Partition Functions from Bond Orders and Populations. (in preparation), 2025.
 
 ## License
 
