@@ -52,7 +52,7 @@ class QBOP: # qbop class
         qbop_param_folder: :obj:`str`,optional
             name of the path/folder containing qbop-1 parameters
         """
-        from . import read_files as ro
+        from . import read_output as ro
         from .spatial_geom import all_data
         
         self.atom_molecule = atom_molecule
