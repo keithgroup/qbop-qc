@@ -94,7 +94,7 @@ class file_properties:
         print('                  kcal/mol     cal/mol*K   cal/mol*K')
         print(' ' + 52 * '-')
         for l in range(size):
-            print(f' {titles[l]:^15}{U[l]:>10.4f}{Cv[l]:>12.4f}{S[l]:>12.4f}')
+            print(f' {titles[l]:^15}{U[l]:>10.4f}{Cv[l] * 1e3:>12.4f}{S[l] * 1e3:>12.4f}')
         print(' ' + 52 * '-')
         print('                         q             ln(q)')
         print(' ' + 52 * '-')
